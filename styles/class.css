@@ -1,0 +1,137 @@
+.classes-con {
+  width: 70%;
+  margin: 5% 15%;
+}
+
+.classes-heading {
+  text-align: center;
+  color: rgb(6,213,6);
+  text-decoration: underline;
+}
+
+.classes-table, .classes-table th, .classes-table td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.classes-table {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.classes-table th {
+  background-color: rgb(236, 255, 236);
+  height: 40px;
+}
+
+.classes-table td {
+  height: 100px;
+}
+
+.day-width {
+  width: 120px;
+}
+
+.meal-width {
+  width: 150px;
+}
+
+.time-width {
+  width: 300px;
+}
+
+.calendar-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.attendance-per {
+  display: flex;
+  padding: 0% 5%;
+}
+
+.attendance-heading {
+  padding: 0 110px;
+}
+  
+.calendar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+  
+.calendar-header button {
+  margin: 0 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+  
+.calendar-header h2 {
+  margin: 0 20px;
+}
+  
+.calendar-table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+  
+.calendar-table th,
+.calendar-table td {
+  width: 14.28%;
+  padding: 25px 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 25px;
+  font-weight: bold;
+}
+  
+.calendar-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+  
+.day-cell {
+  cursor: pointer;
+}
+  
+.status-present {
+  color: #00ff3c;
+}
+  
+.status-absent {
+  color: #ff0019;
+}
+  
+.status-pending {
+  color: #ffbf00;
+}
+  
+.empty-cell {
+  background-color: #f9f9f9;
+}
+  
+
+
+.progress-details {
+  margin-top: 20px;
+  margin-left: 34%;
+  margin-right: 35%;
+  background-color: #f0f0f0;
+  padding: 15px ;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.progress-p {
+  margin-left: 150px;
+}
+
+.progress-heading {
+  font-size: 24px;
+  font-weight: bold;
+}

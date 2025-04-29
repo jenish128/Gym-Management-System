@@ -1,0 +1,76 @@
+/* ---------- Program Start ---------- */
+
+.program-con{
+    border: 2px solid black;
+    width: 80%;
+    height: 90%;
+    margin: 5% 10%;
+    border-radius: 20px;
+    background-color: rgb(236, 255, 236);
+}
+
+.program-heading {
+    text-align: center;
+    color: rgb(6,213,6);
+    margin: 10px;
+}
+
+.program-p {
+    text-align: justify;
+    margin: 10px 30px;
+}
+
+.program-div-heading {
+    text-align: left;
+    margin: 10px 40px;
+    color: rgb(6,213,6);
+}
+
+.program-div-heading4 {
+    text-align: left;
+    margin: 10px 40px;
+}
+
+.program-list {
+    margin: 0px 40px;
+}
+
+.program-div-p {
+    text-align: left;
+    margin: 0px 40px;
+}
+
+.program-table, .program-table th, .program-table tr ,.program-table td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.program-table {
+    width: 80%;
+    height: 300px;
+    margin: 1% 10%;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.buy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.buy-card {
+    width: 250px;
+    margin: 20px 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FFF;
+}
+.buy-btn {
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* ---------- Program End ---------- */

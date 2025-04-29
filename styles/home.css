@@ -1,0 +1,396 @@
+/* ---------- Navbar Start ---------- */
+
+.navcon {
+    background-color: #363333a5;
+    padding: 0px 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+.nav-title {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.nav-title-em {
+    color: rgb(0, 255, 0);
+}
+
+.nav-links {
+    display:flex;
+    margin-left: 6%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-profile-btn {
+    padding: 2px 15px 2px 15px;
+    margin: 1px 40px;
+}
+
+.nav-profile-btn-width {
+    padding: 2px 15px 5px 15px;
+    margin: 1px 40px;
+    width: 53%;
+}
+
+.profile-img {
+    width: 30px;
+    border-radius: 20px;
+    margin: 0px 10px 0px 0px;
+}
+
+.profile-text {
+    margin: 6px 0px 0px 0px;
+}
+
+/* ---------- Navbar End ---------- */
+
+
+
+/* ---------- Home Component Start ---------- */
+
+/* Video Background Container */
+.background-video {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+/* Fullscreen Video */
+.background-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire section */
+}
+
+/* Dark Overlay for Better Readability */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+}
+
+/* Content Styling */
+.content {
+    padding: 200px 100px;
+    width: 45%;
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-title {
+    color: white;
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.home-title-em {
+    color: rgb(0, 255, 0);
+}
+.home-p {
+    margin-top: 40px;
+    font-size: 23px;
+    text-align: justify;
+}
+.start-btn {
+    width: 350px;
+    height: 40px;
+    margin: 15px 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.bmi-btn{
+    width: 350px;
+    height: 45px;
+    
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
+/* ---------- Home Component End ---------- */
+
+
+
+/* ---------- Training Component Start ---------- */
+
+.training-content {
+    position: relative;
+    z-index: 2;
+    color: #000;
+    justify-content: center;
+}
+
+.training {
+    width: 40%;
+    padding: 20px;
+}
+
+.training-div {
+    padding: 20px;
+}
+
+.training-subdiv{
+    padding: 0px 20px;
+}
+
+.training-img {
+    border: 3px solid rgb(6, 213, 6);
+    border-radius: 20px;
+    width: 75px;
+}
+
+.training-subdiv h1 {
+    margin: 5px;
+}
+
+.training-subdiv p {
+    margin: 0px 0px 0px 5px;
+}
+
+.training-btn {
+    padding: 7px 20px;
+    margin: 5px 20px;
+}
+
+/* ---------- Training Component End ---------- */
+
+
+
+/* ---------- Class Component Start ---------- */
+
+.class-background-image {
+    background-image: url('../media/image/aboutbackground.webp');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    position: relative;
+}
+
+.class-con {
+    padding: 5% 15%;
+    height: 500px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-btn{
+    background: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0px 30px 0px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.class-btn:active{
+    transform: scale(0.95);
+    background-color: rgb(6, 213, 6);
+}
+
+.class-btn:hover {
+    background-color: rgb(6, 213, 6);
+    color: rgb(6, 213, 6);
+    box-shadow: 0px 5px 30px rgba(6, 213, 6);
+}
+
+.class-box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(0, 255, 0);
+    border-radius: 20px;
+    background-color: #FFF;
+}
+
+.class-box:hover {
+    background-color: rgb(6, 213, 6);
+    color: #FFF;
+}
+
+.class-img {
+    width: 100px;
+    padding: 25px;
+}
+
+.class-heading {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- Class Component End ---------- */
+
+
+
+/* ---------- Contact Component Start ---------- */
+
+.contact-con {
+    height: 500px;
+}
+
+.contact-content {
+    height: 100%;
+}
+
+.map {
+    margin: 0px;
+    width: 100%;
+}
+
+.contact-form {
+    width: 28%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 92%;
+    margin: 1%;
+    border: 4px solid rgb(6, 213, 6);
+    border-radius: 20px;
+}
+
+.contact-form h1{
+    margin-bottom: 10px;
+}
+
+.sug-labeldiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sug-label {
+    width: 25%;
+    text-align: left;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sug-input {
+    padding: 5px;
+    width: 55%;
+    padding: 6px 10px;
+    border: 2px solid #363333;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #FFF;
+    font-weight: bold;
+    margin: 0px 5px;
+    align-items: center;
+}
+
+.sug-textarea {
+    padding: 5px;
+    width: 55%;
+    height: 125px;
+    padding: 6px 10px;
+    border: 2px solid #363333;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #FFF;
+    font-weight: bold;
+    margin: 0px 5px;
+    align-items: center;
+}
+
+.sug-btn {
+    width: 350px;
+    height: 50px;
+
+   
+}
+
+/* ---------- Contact Component End ---------- */
+
+
+
+/* ---------- Footer Start ---------- */
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: rgb(6, 213, 6);
+}
+
+.footer-about, .footer-links, .footer-contact, .footer-social {
+    width: 200px;
+    margin-bottom: 20px; 
+    text-align: justify;
+}
+
+
+
+.footer p, .footer a {
+    color: #aaa;
+    font-size: 0.9em;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: rgb(6, 213, 6);
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---------- Footer End ---------- */
+
+

@@ -1,0 +1,80 @@
+/* 🌟 BMI Container */
+.bmi-container {
+    text-align: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    
+    /* Beautiful Light Blue + Light Purple Gradient Background */
+    background: linear-gradient(135deg, #a1c4fd 30%, #c2e9fb 50%, #d4a1ff 100%);
+}
+
+/* 🌟 Input Fields */
+.bmi-input {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 12px;
+    width: 50%;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    margin-top: 5%;
+}
+
+/* Input Field Hover Effect */
+input:focus {
+    outline: none;
+    border-color: #ff5733;
+    box-shadow: 0px 0px 10px rgba(255, 87, 51, 0.5);
+}
+
+/* 🌟 Buttons */
+button {
+    background-color: #ff5733;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+/* 🔥 Button Hover Effect */
+button:hover {
+   
+    transform: scale(1.05);
+}
+
+/* 🌟 Back Button */
+.back-btn {
+    background-color: #333;
+    margin-left: 2px;
+    margin-top: 2%;
+}
+
+.back-btn:hover {
+    background-color: #555;
+}
+
+/* 🌟 Responsive Design */
+@media (max-width: 768px) {
+    input {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
+    }
+}

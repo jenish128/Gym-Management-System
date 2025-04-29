@@ -1,0 +1,335 @@
+.container {
+    width: 60%;
+    height: 450px;
+    margin: 9% 20%;
+    border: 2px solid #363333;
+    background-color: #363333;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading {
+    color: #FFF;
+}
+
+.text {
+    font-size: large;
+    color: white;
+    margin: 5% 10%;
+}
+
+.button {
+    border: #FFF 3px solid;
+    font-size: large;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #363333;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FFF;
+    border: #363333 solid 3px;
+    color: #363333;
+}
+
+.heading-com {
+    color: rgb(6, 213, 6);
+    margin-bottom: 20px;
+}
+
+.label {
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    background-color: #FFF;
+    padding: 0 5px;
+    z-index: 1;
+}
+
+.error-label {
+    text-align: left;
+    font-size: 16px;
+    color: red;
+    background-color: #FFF;
+    padding: 0 5px;
+    z-index: 1;
+}
+
+.inputs {
+    width: 80%;
+    padding: 12px 20px;
+    border: 2px solid #363333;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #FFF;
+    align-self: center;
+    margin-bottom: 35px;
+}
+
+.error-inputs {
+    width: 80%;
+    padding: 12px 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #FFF;
+    align-self: center;
+    margin-bottom: 35px;
+}
+
+.inputs:focus {
+    border: 2px solid rgb(6, 213, 6);
+    outline: none;
+    box-shadow: 0 0 5px rgba(6, 213, 6, 0.5);
+}
+
+.error-inputs:focus {
+    border: 2px solid red;
+    outline: none;
+    box-shadow: 0 0 5px red;
+}
+
+.error-inputs::placeholder {
+    color: red;
+}
+
+.inputs:focus::placeholder {
+    color: transparent;
+}
+
+.error-inputs:focus::placeholder {
+    color: transparent;
+}
+
+.error-text {
+    margin: 0px;
+    font-size: 16px;
+    color: red;
+}
+
+.or {
+    display: flex;
+    flex-direction: row;
+}
+
+.or h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.line {
+    height: 1px;
+    background-color: #333;
+    width: 158px;
+    margin: 13px 10px;
+    box-shadow: #363333;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.icon-btn {
+    display: flex;
+    color: green;
+    align-items: center;
+    gap: 8px;
+    margin: 0% 30px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.icon-btn:hover {
+    border: 2px solid rgb(6, 213, 6);
+    box-shadow: 5px 5px 10px rgba(6, 213, 6, 0.5);
+}
+
+.icon-btn:active{
+    transform: scale(0.95);
+}
+
+
+
+/* ---------- signup ---------- */
+
+.signup {
+    width: 50%;
+    text-align: center;
+    padding: 10% 0;
+}
+
+.signup-container {
+    height: 500px;
+    width: 25%;
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    border: 3px solid #363333;
+    border-radius: 15px;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 0 20px 40px green;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 0% 2%;
+}
+
+.email-label {
+    width: 7vh;
+    position: absolute;
+    top: 95px;
+    left: 70px;
+}
+
+.pass-label {
+    width: 11vh;
+    position: absolute;
+    top: 190px;
+    left: 70px;
+}
+
+.con-pass-label {
+    width: 19vh;
+    position: absolute;
+    top: 290px;
+    left: 50px;
+}
+
+.signup-error1 {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.signup-error2 {
+    position: absolute;
+    top: 210px;
+    left: 50px;
+}
+
+.signup-error3 {
+    position: absolute;
+    top: 290px;
+    left: 50px;
+}
+
+.signup-hide-unhide1 {
+    width: 50px;
+    padding: 0px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    top: 210px;
+    left: 328px;
+    cursor: pointer;
+}
+
+.signup-hide-unhide2 {
+    width: 50px;
+    padding: 0px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    top: 305px;
+    left: 328px;
+    cursor: pointer;
+}
+
+.signup-btn {
+    width: 350px;
+    height: 40px;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+}
+
+
+
+/* ---------- login ---------- */
+
+.login {
+    width: 50%;
+    text-align: center;
+    padding: 10% 0;
+}
+
+.login-container {
+    height: 500px;
+    width: 25%;
+    position: absolute;
+    top: 13%;
+    left: 51%;
+    border: 3px solid #363333;
+    border-radius: 15px;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 0 20px 40px green;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: left;
+    justify-content: center;
+}
+
+.email-label1 {
+    width: 7vh;
+    position: absolute;
+    top: 82px;
+    left: 70px;
+}
+
+.pass-label1 {
+    width: 11vh;
+    position: absolute;
+    top: 180px;
+    left: 60px;
+}
+
+.login-error1 {
+    position: absolute;
+    top: 145px;
+    left: 50px;
+}
+
+.login-error2 {
+    position: absolute;
+    top: 225px;
+    left: 50px;
+}
+
+.login-hide-unhide {
+    width: 50px;
+    padding: 0px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    top: 194px;
+    left: 328px;
+    cursor: pointer;
+}
+
+.other {
+    text-align: right;
+}
+
+.forget {
+    margin: 0px 30px;
+}
+
+.login-btn {
+    width: 350px;
+    height: 40px;
+    margin: 30px 40px;
+}

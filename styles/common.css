@@ -1,0 +1,104 @@
+/* ---------- default margin and padding ---------- */
+
+.margin-padding {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* ---------- flex direction ---------- */
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* ---------- button ---------- */
+
+.btn{
+    border: #363333 2px solid;
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+    align-self: center;
+    background-color: rgb(6, 213, 6);
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.95);
+    background-color: #388E3C;
+}
+
+.btn:hover {
+    background-color: #FFF;
+    border: rgb(6, 213, 6) solid 2px;
+    color: rgb(6, 213, 6);
+    box-shadow: 5px 5px 10px rgba(6, 213, 6, 0.5);
+}
+
+
+
+/* ---------- title ---------- */
+
+.titlea {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.titleb {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(6, 213, 6);
+}
+
+.titlec {
+    text-align: center;
+    text-decoration: underline;
+    color: #363333;
+}
+
+
+
+/* ---------- link-btn ---------- */
+
+.link-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.link-btn:hover {
+    text-decoration: underline;
+    color: rgb(6, 213, 6);
+    font-weight: bold;
+}
+
+
+
+/* ---------- overlay ---------- */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: brightness(0.8);
+    z-index: 1;
+}
